@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Middlemeg party</title>
+  <meta name="description" content="The Great Meg in the Sky">
+  <link rel="stylesheet" href="css/middlemeg.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+  <script type="text/javascript" src="js/timer.js"> </script>
+</head>
+
+<body>
+	<audio autoplay loop id="song">
+  		<source src="audio/song.mp3" type="audio/mpeg" >
+	</audio>
+	<script> 
+    document.getElementById('song').play(); 
+</script> 
+
+	<div class="container">
+		<img src="img/statuscat.gif">
+	</div>
+
+	<div class="text"> 
+		You've partied with Meg for <br>
+		<span id="minutes"></span>:<span id="seconds"></span> 
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #104D8E;
+}
+
+.text {
+	text-align: center;
+	font-family: roboto;
+	color: white;
+
+}
