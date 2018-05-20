@@ -10,14 +10,13 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
   <script type="text/javascript" src="js/timer.js"> </script>
+  <script type="text/javascript" src="js/play.js"> </script>
 </head>
 
 <body>
 	<audio autoplay loop id="song">
   		<source src="audio/song.mp3" type="audio/mpeg" >
 	</audio>
-	<script> 
-</script> 
 
 	<div class="container">
 		<img src="./img/statuscat.gif">
@@ -26,6 +25,9 @@
 	<div class="text"> 
 		You've partied with Meg for <br>
 		<span id="minutes"></span>:<span id="seconds"></span> 
+	</div>
+	<div align="center" onclick='playSong()'>
+		<img src="img/speaker.png">
 	</div>
 
 </body>
